@@ -6,7 +6,7 @@ defmodule ChatterWeb.FeatureCase do
     quote do
       use Wallaby.DSL
       alias ChatterWeb.Router.Helpers, as: Routes
-
+      IO.inspect("Hello AKhil")
       @endpoint ChatterWeb.Endpoint
     end
   end
